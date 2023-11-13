@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+.header{
+  color: white;
+  font-size: 36px;
+}
+.js_paragraph{
+  color: white;
+  font-size: 32px;
+}
+.button_1{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 26px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+.button_2{
+  background-color: rgb(254, 160, 10);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 26px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Calculations </title>
+    <link rel="icon" href="https://static-00.iconduck.com/assets.00/amazon-icon-2048x1722-myhuicq8.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <div class="header"> Calculator </div>
+    <p class="js_paragraph"></p>
+    <div class="calculator_grid">
+      <div class="flex">
+        <button onclick="
+       console.log(update_calculation(`1`));
+        
+        " class="button_1"> 1 </button>
+      <button onclick="
+      console.log(update_calculation(`2`));
+       
+       " class="button_1"> 2 </button>
+      <button onclick="
+      console.log(update_calculation(`3`));
+       
+       " class="button_1"> 3 </button>
+      <button onclick="
+      console.log(update_calculation(`+`));
+       
+       " class="button_2"> + </button>
+
+      </div>
+      
+   
+
+    
+      <div class="flex">
+        <button onclick="
+        console.log(update_calculation(`4`));
+         " class="button_1"> 4 </button>
+        <button onclick="
+        console.log(update_calculation(`5`));
+         
+         " class="button_1"> 5 </button>
+        <button onclick="
+        console.log(update_calculation(`6`));;
+         
+         " class="button_1"> 6 </button>
+        <button onclick="
+        console.log(update_calculation(`-`));
+         " class="button_2"> - </button>
+  
+      </div>
+     
+
+  
+      <div class="flex">
+        <button onclick="
+        console.log(update_calculation(`6`));
+         
+         " class="button_1"> 7 </button>
+        <button onclick="
+        console.log(update_calculation(`8`));
+         " class="button_1"> 8 </button>
+        <button onclick="
+        console.log(update_calculation(`9`));
+         
+         " class="button_1"> 9 </button>
+        <button onclick="
+        
+        console.log(update_calculation(`*`));
+  
+         " class="button_2"> * </button>
+      </div>
+     
+  
+
+    
+      <div class="flex">
+        <button onclick="
+       console.log(update_calculation(`0`));
+       
+       " class="button_1"> 0 </button>
+      <button onclick="
+      
+      console.log(update_calculation(`.`));
+       
+       " class="button_1"> . </button>
+      <button onclick="
+      calculation = eval(calculation);
+      
+      document.querySelector(`.js_paragraph`).innerHTML = calculation;
+      localStorage.setItem(`update_score`, calculation)
+       
+       " class="button_1"> = </button>
+      <button onclick="
+      
+      console.log(update_calculation(`/`));
+       
+       " class="button_2"> / </button>
+    
+      </div>
+      
+    </div>
+    <div class="clear_button">
+      <button onclick="
+      calculation = '';
+      document.querySelector(`.js_paragraph`).innerHTML = calculation;
+      
+      localStorage.removeItem(`update_score`);
+       
+       " class="button_3"> Clear </button>
+    </div>
+   
+
+    <script src="calculator.js">
+      
+     
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
