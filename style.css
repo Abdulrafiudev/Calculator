@@ -1,0 +1,227 @@
+body{
+  font-family: Arial;
+}
+
+
+
+.subscribe{
+  background-color: black;
+  color: white;
+  width: 100px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+
+
+ 
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.header{
+  margin-top: 20px;
+  
+  margin-bottom: 20px;
+}
+.button{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.margin_of_button{
+  margin-top: 20px;
+  
+}
+.calculator_grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  row-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+
+ 
+  
+  
+  
+}
+.calculator_grid_1{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows:100px 1fr ;
+  column-gap: 20px;
+  row-gap: 100px;
+  top: 30px;
+  
+}
+.color{
+  background-color: red;
+}
+.fuck{
+  background-color: pink;
+}
+.flex{
+  
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  
+  
+  justify-content: space-evenly;
+  align-items: center;
+  
+  column-gap: 20px;
+
+}
+.clear_button{
+  margin-top: 20px;
+}
+.button_3{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+body{
+  position: relative;
+}
+.js_subscribe_button{
+
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.is_subscribe_active{
+  background-color: rgb(240, 240, 240
+  
+  
+  );
+  color: black;}
+
+.input_box{
+  height: 34px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(139, 139, 139);
+  font-size: 15px;
+  padding-left: 12px;
+  border-radius: 2px;
+  
+}
+.calculate_button{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  padding-top: 10.8px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.div_1{
+  margin-top: 50px;
+}
+.flex_10{
+  display: flex;
+  flex: 1;
+  column-gap: 5px;
+  justify-content: start;
+  align-items: center;
+}
+.value, .js_due_date{
+  font-size: 15px;
+  padding: 7px;
+  
+}
+.js_due_date{
+   
+
+}
+.add_button{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.todo, .grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.todo{
+  align-items: center;
+}
+.grid{
+  margin-bottom: 15px;
+}
+.delete_button{
+  background-color: darkred;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.section{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  background-color: aquamarine;
+  
+ 
+ 
+}
+.center{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translatex(-50%);
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  border-color: gray;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  
+  
+}
+
+.line_1{
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
